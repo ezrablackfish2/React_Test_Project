@@ -9,6 +9,7 @@ import justiceHammer from './assets/justice-hammer.svg'
 import reload from './assets/reload.svg'
 import search from './assets/search.svg'
 import wallet from './assets/wallet.svg'
+import zoeMiller from './assets/zoe-miller.jpg'
 
 function App() {
 
@@ -82,6 +83,20 @@ function App() {
               <div className="inner-list">Rewards</div>
             </div>
           </div>
+          </div>
+        </div>
+        <div className='middle-container'>
+          <div className='explore-button'>Explore Feed</div>
+          <div className='feed-container'>
+          <div className='feed-image-wrapper'>
+
+            <img src={zoeMiller}
+              alt="zoe miller 1"
+              className="feed-image-one"/>
+            <img src={zoeMiller}
+            alt="zoe miller 1"
+            className="feed-image-two"/>
+            </div>
           </div>
         </div>
       </div>

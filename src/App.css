@@ -78,3 +78,57 @@
   color: #070707;
 
 }
+
+.middle-container {
+  margin-top: 20px;
+  width: 462px;
+  height: 818px;
+  margin-left: 107px;
+  margin-right: 107px;
+}
+
+.explore-button {
+  margin: auto;
+  width: 162px;
+  height: 44px;
+  font-size: 18px;
+  font-style: normal;
+  font-family: "Lexend";
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  border-radius: 20px;
+  background: linear-gradient(135deg, #7464e4, #1a00d2);
+}
+
+.feed-image-wrapper {
+  margin-top: 20px;
+  position: relative;
+  width: 462px;
+  height: 705px;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.feed-image-two {
+  position: absolute;
+  width: 432px;
+  height: 650px;
+  object-fit: cover;
+  left: 15px;
+  top: 0;
+  border-radius: 30px;
+  z-index: 1;
+}
+
+.feed-image-one {
+  position: absolute;
+  top: 20px;
+  width: 462px;
+  height: 650px;
+  object-fit: cover;
+  border-radius: 30px;
+  z-index: 2;
+}
+
