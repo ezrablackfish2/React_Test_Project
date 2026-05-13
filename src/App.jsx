@@ -10,6 +10,7 @@ import reload from './assets/reload.svg'
 import search from './assets/search.svg'
 import wallet from './assets/wallet.svg'
 import zoeMiller from './assets/zoe-miller.jpg'
+import tickmark from './assets/tickmark.svg'
 
 function App() {
 
@@ -96,6 +97,14 @@ function App() {
             <img src={zoeMiller}
             alt="zoe miller 1"
             className="feed-image-two"/>
+            <div className="image-description-container">
+              <div className="top-description-container">
+                <div className="name-and-age-container">Zoe Miller, 22 </div>
+                <img className="tickmark-image" src={tickmark}/>
+                <div className="mate-container">+ Mate </div>
+                
+              </div>
+            </div>
             </div>
           </div>
         </div>
