@@ -1,0 +1,80 @@
+.feed-bids {
+  display: flex;
+  width: min(100vw, 1440px);
+  height: 100vh;
+  background: #e4e4e4;
+  margin: auto;
+}
+
+.hambergar {
+  background-color: #f1f1f1;
+  background: rgba(241, 241, 241, 0.28);
+  height: min(93.51vh, 1024px);
+  width: 310px;
+}
+
+
+
+.side-bar-container {
+  margin-top: 20px;
+  width: 310px;
+  height: 559px;
+  padding-top: 20px;
+  padding-left: 20px;
+
+}
+
+.top-row {
+  display: flex;
+  align-items: center;
+}
+
+
+
+.party-witty-logo {
+  position: relative;
+}
+
+.top-side-bar-container {
+  display: flex;
+  align-items: center;
+   padding: 20px;
+}
+
+.top-right-side-bar-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  background-color: #C5C0E5;
+  border-radius: 50%;
+  
+}
+
+.side-bar-contents {
+  position: block;
+  width: 270px;
+  height: 505px;
+}
+
+.side-list {
+  width: 270px;
+  height: 50px;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.side-image {
+  margin-left: 20px;
+}
+
+.inner-list {
+  margin-left: 20px;
+  font-size: 18px;
+  font-style: normal;
+  left: 60px;
+  font-family: "Lexend";
+  color: #070707;
+
+}
