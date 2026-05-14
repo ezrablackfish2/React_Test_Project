@@ -104,6 +104,11 @@ function App() {
                 <div className="mate-container">+ Mate </div>
                 
               </div>
+                <div className="middle-description-container">4 Mutual Mates</div>
+                <div className="tags-container">
+                  
+                </div>
+               
             </div>
             </div>
           </div>
