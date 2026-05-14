@@ -14,6 +14,7 @@ import tickmark from './assets/tickmark.svg'
 import cross from './assets/cross.svg'
 import heart from './assets/heart.svg'
 import fire from './assets/fire.svg'
+import profile from './assets/profile.png'
 
 function App() {
 
@@ -114,6 +115,8 @@ function App() {
                 <div className='tag-box-one-grey'></div>
                 <div className='tag-box-one-grey'></div>
             </div>
+
+            <div className='match-container'> <img className='top-fire-logo'src={fire} /> <div> Matches Your Vibe</div></div>
             <img src={zoeMiller}
             alt="zoe miller 1"
             className="feed-image-two"/>
@@ -142,6 +145,14 @@ function App() {
                 </button>
             </div>
           </div>
+        </div>
+
+        <div className='right-container'>
+            <div className='top-right-container'>
+                <div className='profile-container'> <img className='profile-image' src={profile}/></div>
+                <div className='profile-title'>Make Your First Move</div>
+                 <div className='profile-content'>Verify your profile to start sending invites and offering drinks.</div>
+            </div>
         </div>
       </div>
     </>
