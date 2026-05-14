@@ -105,8 +105,10 @@ function App() {
                 
               </div>
                 <div className="middle-description-container">4 Mutual Mates</div>
-                <div className="tags-container">
-                  
+                <div className="tag-container">
+                    <div className="tag">Bollywood Nights</div>
+                    <div className="tag">Chill Crowds</div>
+                    <div className="tag">Party Regular</div>
                 </div>
                
             </div>
