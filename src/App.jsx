@@ -15,6 +15,8 @@ import cross from './assets/cross.svg'
 import heart from './assets/heart.svg'
 import fire from './assets/fire.svg'
 import profile from './assets/profile.png'
+import content from './assets/content.jpg'
+import eye from './assets/eye.svg'
 
 function App() {
 
@@ -153,7 +155,38 @@ function App() {
                 <div className='profile-title'>Make Your First Move</div>
                  <div className='profile-content'>Verify your profile to start sending invites and offering drinks.</div>
             </div>
+
+            <div className='middle-right-container'>
+                <div className='middle-top-right-container'>How It Works</div>
+                <div className='content-list'>
+                <img className="content-image" src={content} />
+                <div className="right-contents">
+                    <div className="content-details-one"><div className='button-two'>2 </div> <img src={eye}/></div>
+                    <div className="content-details-two">Spot Your Person</div>
+                    <div className="content-details-three">Pick someone you'd genuinely enjoy going out with.</div>
+                </div>
+                </div>
+                <div className='content-list'>
+                    <img className="content-image" src={content} />
+                    <div className="right-contents">
+                        <div className="content-details-one"><div className='button-two'>2 </div> <img src={eye}/></div>
+                        <div className="content-details-two">Send a Drink</div>
+                        <div className="content-details-three">Offer their first drink your way of saying let's go out.</div>
+                    </div>
+                    
+                </div>
+                <div className='content-list'>
+                    <img className="content-image" src={content} />
+                    <div className="right-contents">
+                        <div className="content-details-one"><div className='button-two'>2 </div> <img src={eye}/></div>
+                        <div className="content-details-two">They Accept → You're Set</div>
+                        <div className="content-details-three">Once accepted, it's a confirmed plan. No endless chatting.</div>
+                    </div>
+                </div>
+            </div>
         </div>
+         
+       
       </div>
     </>
   )
