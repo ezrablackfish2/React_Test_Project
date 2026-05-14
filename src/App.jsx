@@ -11,6 +11,8 @@ import search from './assets/search.svg'
 import wallet from './assets/wallet.svg'
 import zoeMiller from './assets/zoe-miller.jpg'
 import tickmark from './assets/tickmark.svg'
+import cross from './assets/cross.svg'
+import heart from './assets/heart.svg'
 
 function App() {
 
@@ -112,6 +114,14 @@ function App() {
                 </div>
                
             </div>
+            
+            </div>
+            <div className="background-white-container">
+                <img src={cross} className="bottom-button-one" />
+                <div className="bottom-button-two">Go Tonight</div>
+                <button className="button-button-three">
+                    <img src={heart} className="heart-icon" />
+                </button>
             </div>
           </div>
         </div>

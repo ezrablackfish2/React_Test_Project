@@ -2,8 +2,34 @@
   display: flex;
   width: min(100vw, 1440px);
   height: 100vh;
-  background: #e4e4e4;
   margin: auto;
+
+  background:
+    radial-gradient(
+      ellipse 598px 577px at 1230px 190px,
+      rgba(207, 49, 172, 0.18) 0%,
+      rgba(207, 49, 172, 0.10) 32%,
+      rgba(207, 49, 172, 0.06) 58%,
+      rgba(207, 49, 172, 0) 78%
+    ),
+
+    radial-gradient(
+      ellipse 432px 428px at 160px 40px,
+      rgba(116, 100, 228, 0.25) 0%,
+      rgba(116, 100, 228, 0.15) 30%,
+      rgba(116, 100, 228, 0.08) 58%,
+      rgba(116, 100, 228, 0) 78%
+    ),
+
+    radial-gradient(
+      ellipse 407px 417px at 210px 720px,
+      rgba(246, 198, 86, 0.25) 0%,
+      rgba(246, 198, 86, 0.16) 30%,
+      rgba(246, 198, 86, 0.12) 58%,
+      rgba(246, 198, 86, 0) 80%
+    ),
+
+    #e4e4e4;
 }
 
 .hambergar {
@@ -106,9 +132,10 @@
   margin-top: 20px;
   position: relative;
   width: 462px;
-  height: 705px;
+  height: 650px;
   border-radius: 30px;
   overflow: hidden;
+  margin-bottom: 0px;
 }
 
 .feed-image-two {
@@ -130,11 +157,34 @@
   object-fit: cover;
   border-radius: 30px;
   z-index: 2;
+
+}
+
+.feed-image-wrapper::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 30px;
+  z-index: 3;
+  pointer-events: none;
+
+  background:
+    linear-gradient(
+      180.84deg,
+      rgba(75, 22, 76, 0) 61.81%,
+      rgba(75, 22, 76, 0.5) 67.69%,
+      #0D030B 88.31%
+    ),
+    linear-gradient(
+      186.58deg,
+      rgba(75, 22, 76, 0.2) 15.94%,
+      rgba(75, 22, 76, 0.01) 24.79%
+    );
 }
 
 .image-description-container {
   position: absolute;
-  bottom: 68px;
+  bottom: 30px;
   left: 15px;
   padding-left: 5px;
   color: #ffffff;
@@ -199,4 +249,81 @@
     border-radius: 20px;
     padding: 6.5px 12px;
     margin-right: 10px;
+    
+}
+
+.background-white-container {
+    position: absolute;
+    bottom: 35px;
+    width: 462px;
+    height: 106px;
+    background: #FFFFFF;
+    border-radius: 0px 0px 30px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lexend';
+    margin-top: 18px;
+    background: rgba(255, 255, 255, 0.25);
+
+}
+
+.bottom-button-one {
+    padding: 12px;
+    margin-right: 20px;
+    border: 1px solid #4F4F4F1A;
+    border-radius: 30px;
+    background: #4F4F4F0D;
+
+}
+
+.bottom-button-two {
+    color: white;
+    padding: 12px 24px;
+    background: linear-gradient(81.67deg, #C229C0 -0.79%, #FC4B6A 89.7%);
+    margin-right: 20px;
+    border-radius: 30px;
+    width: 168;
+    height: 48;
+    opacity: 1;
+    gap: 5px;
+    border-radius: 9999px;
+    padding-top: 14px;
+    padding-right: 24px;
+    padding-bottom: 14px;
+    padding-left: 24px;
+}
+
+
+.button-button-three {
+  width: 48px;
+  height: 48px;
+  box-sizing: border-box;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0;
+  border: 1px solid transparent;
+  border-radius: 50%;
+
+    background:
+    linear-gradient(
+        135deg,
+        #f3d2ef 0%,
+        #fde7ea 100%
+    ) padding-box,
+    linear-gradient(
+        135deg,
+        #C229C0 0%,
+        #E1339A 45%,
+        #FC4B6A 100%
+    ) border-box;
+}
+
+.heart-icon {
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
 }
