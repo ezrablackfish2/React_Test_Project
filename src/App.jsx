@@ -17,6 +17,7 @@ import fire from './assets/fire.svg'
 import profile from './assets/profile.png'
 import content from './assets/content.jpg'
 import eye from './assets/eye.svg'
+import tick from './assets/tick.svg'
 
 function App() {
 
@@ -184,6 +185,14 @@ function App() {
                     </div>
                 </div>
             </div>
+
+            <div className='note-content'>
+                <div className='note-detail'> <img className="tick-image" src={tick}/> <div className="note-text">Get noticed faster</div></div>
+                <div className='note-detail'> <img className="tick-image" src={tick}/> <div className="note-text">Higher chances your invite gets accepted</div></div>
+                <div className='note-detail'> <img className="tick-image" src={tick}/> <div className="note-text">Unlock drink invites & premium interactions</div></div>
+                <div className='note-detail'> <img className="tick-image" src={tick}/> <div className="note-text">Build trust with every profile visit</div></div>
+                </div>
+            <div className='verify-button'> Get Verified</div>
         </div>
          
        

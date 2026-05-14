@@ -598,3 +598,57 @@
   color: white;
   margin-right: 7px;
 }
+
+.note-content {
+    position: relative;
+    margin-top: 61px;
+    margin-left: 20px;
+    width: 360px;
+    height: 152px;
+    opacity: 1;
+    gap: 16px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.note-detail {
+    font-family: Lexend;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    color:  #4F4F4F;
+    display: flex;
+    align-items: center;
+}
+
+
+.note-text {
+    margin-left: 10px;
+}
+
+.verify-button {
+    width: 360px;
+    height: 52px;
+    border-radius: 9999px;
+    background: linear-gradient(81.67deg, #C229C0 -0.79%, #FC4B6A 89.7%);
+
+    font-family: Lexend;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0;
+    margin-left: 20px;
+}
+
