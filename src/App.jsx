@@ -18,6 +18,9 @@ import profile from './assets/profile.png'
 import content from './assets/content.jpg'
 import eye from './assets/eye.svg'
 import tick from './assets/tick.svg'
+import more from './assets/more.svg'
+import king from './assets/king.svg'
+import user from './assets/user.png'
 
 function App() {
 
@@ -92,6 +95,22 @@ function App() {
             </div>
           </div>
           </div>
+
+          <div className='bottom-side-bar'>
+            <div className='more-container'>
+                <img className="more-image" src={more}/>
+                <div className='more-text'>More</div>
+                </div>
+            <img className="king-image" src={king}/>
+            <div className="user-container">
+                <img className="user-image" src={user} />
+                <div className='user-info'>
+                    <div className='user-title'>Zeeshan Ahmad</div>
+                    <div className="user-content">Indus Global Pvt Ltd Admin</div>
+                </div>
+            </div>
+          </div>
+          
         </div>
         <div className='middle-container'>
           <div className='explore-button'>EXPLORE FEED</div>
