@@ -117,15 +117,17 @@
   margin: auto;
   width: 162px;
   height: 44px;
-  font-size: 18px;
+  font-size: 16px;
   font-style: normal;
   font-family: "Lexend";
   color: #FFFFFF;
   display: flex;
   justify-content: center;
   align-items: center; 
-  border-radius: 20px;
-  background: linear-gradient(135deg, #7464e4, #1a00d2);
+  border-radius: 40px;  
+  background: linear-gradient(88.44deg, #7464E4 2.91%, #1A00D2 103.54%);
+
+  
 }
 
 .feed-image-wrapper {
@@ -136,6 +138,68 @@
   border-radius: 30px;
   overflow: hidden;
   margin-bottom: 0px;
+  background: transparent;
+  z-index: 4;
+}
+
+
+
+.tag-box-one-container {
+    left: 36px;
+    top: 14px;
+    position: absolute;
+    display: flex;
+    
+}
+
+.tag-box-one {
+    width: 52.17px;
+    height: 4px;
+    left: 36px;
+    top: 14px;
+    background: #D9D9D9;
+    z-index: 4;
+    border-radius: 100px;
+}
+
+.tag-box-one-grey {
+    margin-left: 9px;
+    width: 52.17px;
+    height: 4px;
+    left: 36px;
+    top: 14px;
+    background: #D9D9D933;
+    z-index: 4;
+    border-radius: 100px;
+}
+
+.tag-box-two-container {
+    left: 36px;
+    top: 34px;
+    position: absolute;
+    display: flex;
+    
+}
+
+.tag-box-two {
+    width: 52.17px;
+    height: 4px;
+    left: 36px;
+    top: 14px;
+    background: #D9D9D9;
+    z-index: 4;
+    border-radius: 100px;
+}
+
+.tag-box-two-grey {
+    margin-left: 9px;
+    width: 52.17px;
+    height: 4px;
+    left: 36px;
+    top: 14px;
+    background: #D9D9D933;
+    z-index: 4;
+    border-radius: 100px;
 }
 
 .feed-image-two {
@@ -168,18 +232,14 @@
   z-index: 3;
   pointer-events: none;
 
-  background:
-    linear-gradient(
-      180.84deg,
-      rgba(75, 22, 76, 0) 61.81%,
-      rgba(75, 22, 76, 0.5) 67.69%,
-      #0D030B 88.31%
-    ),
-    linear-gradient(
-      186.58deg,
-      rgba(75, 22, 76, 0.2) 15.94%,
-      rgba(75, 22, 76, 0.01) 24.79%
-    );
+ background:
+  linear-gradient(
+    180.84deg,
+    rgba(75, 22, 76, 0) 0%,
+    rgba(75, 22, 76, 0) 61.81%,
+    rgba(75, 22, 76, 0.5) 67.69%,
+    #0D030B 88.31%
+  );
 }
 
 .image-description-container {
@@ -253,7 +313,7 @@
 }
 
 .background-white-container {
-    position: absolute;
+    position: relative;
     bottom: 35px;
     width: 462px;
     height: 106px;
@@ -263,7 +323,7 @@
     align-items: center;
     justify-content: center;
     font-family: 'Lexend';
-    margin-top: 18px;
+    margin-top: 20px;
     background: rgba(255, 255, 255, 0.25);
 
 }
@@ -275,6 +335,11 @@
     border-radius: 30px;
     background: #4F4F4F0D;
 
+}
+
+.fire-logo {
+    position: relative;
+    margin-right : 5px;
 }
 
 .bottom-button-two {
@@ -292,6 +357,8 @@
     padding-right: 24px;
     padding-bottom: 14px;
     padding-left: 24px;
+    display: flex;
+
 }
 
 
@@ -326,4 +393,6 @@
   width: 25px;
   height: 25px;
   object-fit: contain;
+  margin-left: 1px;
+  margin-top: 3px;
 }

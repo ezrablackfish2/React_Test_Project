@@ -13,6 +13,7 @@ import zoeMiller from './assets/zoe-miller.jpg'
 import tickmark from './assets/tickmark.svg'
 import cross from './assets/cross.svg'
 import heart from './assets/heart.svg'
+import fire from './assets/fire.svg'
 
 function App() {
 
@@ -89,13 +90,30 @@ function App() {
           </div>
         </div>
         <div className='middle-container'>
-          <div className='explore-button'>Explore Feed</div>
+          <div className='explore-button'>EXPLORE FEED</div>
           <div className='feed-container'>
           <div className='feed-image-wrapper'>
-
+            <div className='tag-box-one-container'>
+                <div className='tag-box-one'></div>
+                <div className='tag-box-one-grey'></div>
+                <div className='tag-box-one-grey'></div>
+                <div className='tag-box-one-grey'></div>
+                <div className='tag-box-one-grey'></div>
+                <div className='tag-box-one-grey'></div>
+            </div>
+            
             <img src={zoeMiller}
               alt="zoe miller 1"
               className="feed-image-one"/>
+            
+             <div className='tag-box-two-container'>
+                <div className='tag-box-one'></div>
+                <div className='tag-box-one-grey'></div>
+                <div className='tag-box-one-grey'></div>
+                <div className='tag-box-one-grey'></div>
+                <div className='tag-box-one-grey'></div>
+                <div className='tag-box-one-grey'></div>
+            </div>
             <img src={zoeMiller}
             alt="zoe miller 1"
             className="feed-image-two"/>
@@ -118,7 +136,7 @@ function App() {
             </div>
             <div className="background-white-container">
                 <img src={cross} className="bottom-button-one" />
-                <div className="bottom-button-two">Go Tonight</div>
+                <div className="bottom-button-two"> <img className='fire-logo' src={fire} /> <div>Go Tonight</div></div>
                 <button className="button-button-three">
                     <img src={heart} className="heart-icon" />
                 </button>
